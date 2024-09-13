@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Em Bé!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+
+  <body>
+    <section id="login">
+      <div class="login-container">
+        <h2>Enter Password</h2>
+        <input type="password" id="password" placeholder="Enter the secret password...">
+        <button onclick="checkPassword()">Login</button>
+        <p id="error-message"></p>
+      </div>
+    </section>
+
+    <div id="main-content" style="display: none;">
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="container">
+          <h1 class="fade-in">Happy Birthday, Em Bé</h1>
+          <p class="fade-in">Celebrating you and our beautiful journey together 💕</p>
+        </div>
+      </section>
+
+      <section id="love-letter">
+        <h2 class="slide-up">A Love Letter to You</h2>
+        <div class="letter-container fade-in">
+          <div class="scroll-effect">
+            <p>My Dearest Em Bé Thư Kỳ,</p>
+
+            <p>Every day, I find myself falling more in love with you, and I often wonder how I could be so lucky to have you by my side. From the moment we met, my world has been brighter, my days filled with more laughter, and my heart warmer than I ever thought possible.</p>
+
+            <p>I still remember our first date like it was yesterday, the way your eyes sparkled in the light, the sound of your laughter echoing in my ears. I knew then that I had found someone truly special, someone who would change my life forever. And here we are, sharing dreams, planning adventures, and making memories that I will cherish for a lifetime.</p>
+
+            <p>There are so many things I love about you: the way you care so deeply for those around you, the passion you bring to everything you do, and the way you make even the simplest moments feel extraordinary. You have a kindness and a strength that inspire me every day. With you, I feel complete, as though every missing piece has finally found its place.</p>
+
+            <p>As we look ahead to all the days to come, I can't help but feel excited for the future. I know that whatever challenges we may face, we will face them together, hand in hand, heart to heart. I promise to always be there for you, to support you in your dreams, and to love you with all that I am, every single day.</p>
+
+            <p>Thank you for being my partner, my confidante, my best friend, and the love of my life. I can't wait to continue this beautiful journey with you, to create countless more memories, and to grow even deeper in love with you. You are my everything, and I am so incredibly grateful to share this life with you.</p>
+
+            <p>Forever yours,</p>
+            <p>Your Dav ❤️</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Personal Message Section -->
+      <section id="personal-message">
+        <h2 class="slide-up" style="margin-bottom: 20px">A Diaries of Messages from your Dav</h2>
+        <p class="slide-up" style="margin-bottom: 30px">Here are a diaries of messages from your Dav since the date I started crafting this message to remind you how special you are and how much you are loved. 💖</p>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 12/10/2024</strong> <br>
+            Dear Em Bé Thư Kỳ, <br>
+            On this special day, I just want to remind you how incredibly important you are to me. Every moment we have shared has been an unforgettable chapter in our story, and I cannot wait for all the amazing moments to come. Thank you for coming into my life and filling it with love, laughter, and happiness. You are my everything, and I am so grateful to have you by my side. Happy Birthday, my love! 💖
+          </p>
+        </div>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 11/10/2024</strong> <br>
+            Today is the day before your birthday, and I am filled with so much love and excitement. I can't wait to celebrate this special day with you and make it the most memorable one yet. You are the most amazing person I know, and I am so lucky to have you in my life. I love you more than words can say, and I hope this message brings a smile to your face. Tomorrow is your day, and I can't wait to make it unforgettable for you. <strong>1 day to go!</strong> 🎈🎁
+          </p>
+        </div>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 10/10/2024</strong> <br>
+            My dearest Em Bé, <br>
+            I just finished adding the final touches to this special website for you, and the website is completely ready! I hope this message brings a smile to your face and fills your heart with love. You are the most amazing person I know, and I am so lucky to have you in my life. I love you more than words can say, and I can't wait to celebrate your birthday with you. <strong>2 days to go!</strong> 🎈🎁
+          </p>
+        </div>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 09/10/2024</strong> <br>
+            OMG I can't believe your birthday is just around the corner! I am so excited to celebrate this special day with you and make it the most memorable one yet. You are the most amazing person I know, and I am so lucky to have you in my life. I love you more than words can say, and I can't wait to see the smile on your face when you see this message hehee. <strong>3 days to go!</strong> 🎈🎁
+          </p>
+        </div>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 03/10/2024</strong> <br>
+            My cute Em Bé, <br>
+            Hehee today is the day I finished crafting this special website for you, my love. I hope this message brings a smile to your face and fills your heart with love. You are the most amazing person I know, and I am so lucky to have you in my life. I love you more than words can say, and I can't wait to celebrate your birthday with you. <strong>10 days to go!</strong> 🎈🎁
+          </p>
+        </div>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 23/09/2024</strong> <br>
+            My dearest Em Bé, <br>
+            I am half-way through crafting this special website for you, and I am filled with so much love and gratitude for having you in my life. You are the most amazing person I know, and I am so lucky to call you mine. I hope this message brings a smile to your face and warms your heart. I love you more than words can say, and I can't wait to celebrate your birthday with you ~ <strong>20 days to go!</strong> 🎈🎁
+          </p>
+        </div>
+        <div class="message-container fade-in">
+          <p>
+            <strong>Date: 12/09/2024</strong> <br>
+            Today is the day I started crafting this special website for you, my love. I wanted to create something unique and meaningful to celebrate your birthday and our beautiful journey together. I hope this message brings a smile to your face and fills your heart with love. You are the most amazing person I know, and I know I am so lucky to have you in my life. <strong>1 month to go!</strong> 🎂🎉
+          </p>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h2 class="slide-up">Our Moments Together</h2>
+        <div class="gallery-container">
+          <div class="gallery-scroll" id="gallery-scroll">
+            <img src="images/photo1.jpg" alt="Memory 1" loading="eager">
+            <img src="images/photo4.JPG" alt="Memory 2" loading="eager">
+            <img src="images/photo3.JPG" alt="Memory 3" loading="eager">
+            <img src="images/photo5.JPG" alt="Memory 4" loading="eager">
+            <img src="images/photo2.JPG" alt="Memory 5" loading="eager">
+            <img src="images/photo6.JPG" alt="Memory 6" loading="eager">
+            <img src="images/photo7.jpg" alt="Memory 7" loading="eager">
+            <img src="images/photo8.jpg" alt="Memory 8" loading="eager">
+            <img src="images/places/478D438B-4A2E-4945-A093-3375D5043CAB.jpg" alt="Memory 9" loading="eager">
+            <img src="images/places/IMG_4384.JPG" alt="Memory 10" loading="eager">
+            <img src="images/places/IMG_4417.JPG" alt="Memory 11" loading="eager">
+            <img src="images/places/Photo%20on%208-2-24%20at%2014.31%20%232.jpg" alt="Memory 12" loading="eager">
+          </div>
+        </div>
+      </section>
+
+      <section id="special-message" class="special-message fade-in">
+        <h2 class="slide-up" style="margin-bottom: 25px">Special Message</h2>
+        <p>Happy Birthday, Em Bé Thư Kỳ! 🎂🎉</p>
+        <p>On this special day, I also want to share images of your mini version - Clairie Baby - and its journey with me all the way to the U.S. 🇺🇸 I hope you enjoy this special message and the memories we've created together. I love you more than words can say, and I can't wait to celebrate this special day with you. Here's to many more beautiful moments and adventures together. 💖</p>
+      </section>
+
+      <!-- Showcasing My Baby Section -->
+      <section id="image-timeline" style="background-color: #f9f9f9;">
+        <h2 class="slide-up">Baby Clairieee's Journey</h2>
+        <div class="timeline-container">
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>The day I met Baby Clairieee</p>
+                <span class="timeline-date">15/08/2024 19:00</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4594.JPG" alt="Memory 1" loading="eager">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>Baby Clairieee's journey to the U.S. starts hereeee</p>
+                <span class="timeline-date">17/08/2024 15:07</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4638.JPG" alt="Memory 2" loading="eager">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>First flight: SGN to SIN 🛫</p>
+                <span class="timeline-date">17/08/2024 15:33</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4642.JPG" alt="Memory 2" loading="eager">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>About to take off 🛫</p>
+                <span class="timeline-date">17/08/2024 16:05</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4662.JPG" alt="Memory 3" loading="eager">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>Arrival at Singapore 🇸🇬</p>
+                <span class="timeline-date">17/08/2024 19:44</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4683.JPG" alt="Memory 4" loading="eager">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>Second flight: SIN to LAX 🛫🛫</p>
+                <span class="timeline-date">17/08/2024 21:00</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4694.JPG" alt="Memory 5">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>Aboard the flight to LAX 🇺🇸</p>
+                <span class="timeline-date">17/08/2024 21:12</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4698.JPG" alt="Memory 6">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>17-hour flight begins hehee 🛫🛫</p>
+                <span class="timeline-date">17/08/2024 21:30</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4708.JPG" alt="Memory 7">
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item slide-up">
+            <div class="timeline-content">
+              <div class="timeline-caption">
+                <p>Arrival at my new home in the U.S. 🏠</p>
+                <span class="timeline-date">18/08/2024 12:30</span>
+              </div>
+              <div class="timeline-image">
+                <img src="images/baby-clairieee/IMG_4760.JPG" alt="Memory 8">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="special-message fade-in">
+        <h2 class="slide-up">Another Special Message</h2>
+        <p class="fade-in">Now, it's your turn hehee! Time to admire my baby's beauty and cuteness. I hope you enjoy this special message and the memories we've created together. Here's to the beauty and cuteness that made me fall for you. 💖</p>
+      </section>
+
+      <section id="gallery">
+        <h2 class="slide-up">Your Beauty and Cuteness</h2>
+        <div class="gallery-container">
+          <div class="gallery-scroll" id="gallery-scroll">
+            <img src="images/baby/9EFF6F7C-032B-48F3-9D13-D5E50C5B58DC.jpg" alt="Memory 1" loading="eager">
+            <img src="images/baby/ACC76CA1-CE7A-4AE8-8F5E-62892032D9D6.jpg" alt="Memory 2" loading="eager">
+            <img src="images/baby/IMG_3935.WEBP" alt="Memory 3" loading="eager">
+            <img src="images/baby/IMG_4459.JPG" alt="Memory 4" loading="eager">
+            <img src="images/baby/IMG_4460.JPG" alt="Memory 5" loading="eager">
+            <img src="images/baby/IMG_4766.JPG" alt="Memory 6" loading="eager">
+            <img src="images/IMG_4002.PNG" alt="Memory 7" loading="eager">
+            <img src="images/baby/PNG%20image.png" alt="Memory 8" loading="eager">
+          </div>
+        </div>
+      </section>
+
+      <section class="special-message fade-in">
+        <h2 class="slide-up">My First Gift to You</h2>
+        <p class="fade-in">Here is the first-ever gift I gave you, my love. It's a special gift that I hope you'll cherish forever - a gift that money couldn't buy (I used all my luck to get it from the claw machine hehee). 💖</p>
+        <div class="flex-container">
+          <img src="images/baby/IMG_3927.JPG" alt="Memory 1" loading="eager">
+        </div>
+      </section>
+
+      <section id="future-plans">
+        <h2 class="slide-up">The Foodie Adventures</h2>
+        <div class="plans-container fade-in" style="margin-top: 20px">
+          <p>Here's to all the foodie adventures we've had together and all the delicious meals we'll share in the future. I can't wait to explore new restaurants, try new cuisines, and create more amazing memories with you! 🍽️🍷</p>
+        </div>
+        <!-- Gallery Section -->
+        <section id="gallery" style="margin-top: 0">
+          <div class="gallery-container">
+            <div class="gallery-scroll" id="gallery-scroll">
+              <img src="images/food/IMG_4131.JPG" alt="Memory 1" loading="eager">
+              <img src="images/food/IMG_4184.JPG" alt="Memory 2" loading="eager">
+              <img src="images/food/IMG_4188.JPG" alt="Memory 3" loading="eager">
+              <img src="images/food/IMG_4366.JPG" alt="Memory 4" loading="eager">
+              <img src="images/food/IMG_4376.JPG" alt="Memory 5" loading="eager">
+              <img src="images/food/IMG_4450.JPG" alt="Memory 6" loading="eager">
+              <img src="images/food/IMG_4509.JPG" alt="Memory 7" loading="eager">
+              <img src="images/food/IMG_4524.JPG" alt="Memory 8" loading="eager">
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="our-playlist">
+        <h2 class="slide-up">Our Special Playlist</h2>
+        <p class="fade-in">These songs remind me of you and the beautiful moments we've shared together. 🎵</p>
+        <div class="playlist-container fade-in">
+          <!-- Spotify Song 1 -->
+          <div class="playlist-item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1HNkqx9Ahdgi1Ixy2xkKkL?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p class="song-description"><strong><em>Photograph</em> - Ed Sheeran.</strong> This song reminds me of the beautiful moments we've shared together. 📸</p>
+          </div>
+
+          <!-- Spotify Song 2 -->
+          <div class="playlist-item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p class="song-description"><strong>Perfect - Ed Sheeran.</strong> This song is a reminder of how perfect you are to me. 💖</p>
+          </div>
+
+          <!-- Spotify Song 3 -->
+          <div class="playlist-item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0MJ5wKsPEeihONNfugHGy7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p class="song-description"><strong>Tip Toe - HYBS.</strong> This song is your favorite, and it always makes me think of you. 🎶</p>
+          </div>
+
+          <!-- Spotify Song 4 -->
+          <div class="playlist-item">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/77RvUHyV6dKacfOGDR8A75?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p class="song-description"><strong>Internet Love - VSTRA.</strong> This song is a reminder of the love we share and the beautiful moments we've created together. 💖</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="interactive-quiz">
+        <h2 class="slide-up">How Well Do You Know Me?</h2>
+        <div class="quiz-container fade-in">
+
+          <!-- Question 1 -->
+          <div class="quiz-question">
+            <p>1. What is my favorite color?</p>
+            <label><input type="radio" name="q1" value="Blue"> Black</label>
+            <label><input type="radio" name="q1" value="Red"> Red</label>
+            <label><input type="radio" name="q1" value="Green"> Green</label>
+            <label><input type="radio" name="q1" value="Purple"> Pink</label>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="quiz-question">
+            <p>2. What was the first movie we watched together?</p>
+            <label><input type="radio" name="q2" value="Inception"> Despicable Me 4</label>
+            <label><input type="radio" name="q2" value="The Notebook"> Conan</label>
+            <label><input type="radio" name="q2" value="Titanic"> Inside Out 2</label>
+            <label><input type="radio" name="q2" value="La La Land"> La La Land</label>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="quiz-question">
+            <p>3. What is my favorite dish?</p>
+            <label><input type="radio" name="q3" value="Paris"> Bun Bo Hue</label>
+            <label><input type="radio" name="q3" value="Tokyo"> Pho</label>
+            <label><input type="radio" name="q3" value="New York"> Bun Cha Hanoi</label>
+            <label><input type="radio" name="q3" value="Sydney"> Banh Cuon Nong</label>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="quiz-question">
+            <p>4. What is my favorite place to visit?</p>
+            <label><input type="radio" name="q4" value="Paris"> New York</label>
+            <label><input type="radio" name="q4" value="Tokyo"> Tokyo</label>
+            <label><input type="radio" name="q4" value="New York"> Seoul</label>
+            <label><input type="radio" name="q4" value="Sydney"> Paris</label>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="quiz-question">
+            <p>5. Where did we first meet?</p>
+            <label><input type="radio" name="q5" value="Paris"> Crescent Mall</label>
+            <label><input type="radio" name="q5" value="Tokyo"> Starbucks</label>
+            <label><input type="radio" name="q5" value="New York"> 9Gaming</label>
+            <label><input type="radio" name="q5" value="Sydney"> Takashimaya</label>
+          </div>
+
+          <button onclick="submitQuiz()">Submit Answers</button>
+
+          <div id="quiz-result" class="fade-in"></div>
+        </div>
+      </section>
+
+      <section id="dedication">
+        <h2 class="slide-up">Special Dedications for You</h2>
+        <div class="dedication-container fade-in">
+          <p>To the person who lights up my life and fills every day with happiness. You are my inspiration, my partner, my best friend. I dedicate all my love and the rest of my days to making you smile. ❤️</p>
+        </div>
+        <div class="dedication-container fade-in" style="margin-top: 20px">
+          <p>Today is definitely a special day, and I hope we can make everyday just as special! I love you more than words can say, and I can't wait to meet you in person in Dec hehee 💖</p>
+        </div>
+      </section>
+
+      <section id="countdown-adventure">
+        <h2 class="slide-up">Countdown to Our Next Big Days Heheee</h2>
+        <div class="countdown-container fade-in">
+          <div class="countdown-item">
+            <h3>Countdown to My Return to Vietnam</h3>
+            <div class="countdown" id="countdown-vietnam">
+              <span id="days-vn">0</span> days
+              <span id="hours-vn">0</span> hours
+              <span id="minutes-vn">0</span> minutes
+              <span id="seconds-vn">0</span> seconds
+            </div>
+          </div>
+
+          <div class="countdown-item">
+            <h3>Countdown to My Birthday</h3>
+            <div class="countdown" id="countdown-birthday">
+              <span id="days-bd">0</span> days
+              <span id="hours-bd">0</span> hours
+              <span id="minutes-bd">0</span> minutes
+              <span id="seconds-bd">0</span> seconds
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-website">
+        <div id="map-container">
+          <h3>Distance Can't Diminish Our Love</h3>
+          <p>Although we are separated by miles and continents, our love knows no boundaries. Every step and every mile brings us closer together, and I can't wait to close the distance and be with you again. 🌍❤️</p>
+
+          <!-- Embed Google My Maps with two custom markers -->
+          <iframe
+              src="https://www.google.com/maps/d/embed?mid=1kxbQ8PEIoUDxWe1RTtWQEYRchVs_mAs&ehbc=2E312F"
+              width="100%"
+              height="480"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              title="Custom Google Map with Two Locations">
+          </iframe>
+        </div>
+      </section>
+
+      <section id="about-website">
+        <h2 class="slide-up">About This Website & Your Boyfriend</h2>
+        <div class="about-container fade-in">
+          <div class="about-website">
+            <h3>The Creation of This Website</h3>
+            <p>
+              This website was created with a lot of love and dedication over several weeks. I wanted to create something truly special for you, a digital space that captures our memories, dreams, and the beautiful journey we've embarked on together.
+              Each section was carefully designed to bring a smile to your face and remind you of the love we share.
+              From selecting the colors that represent our favorite moments, to writing the words that express my deepest feelings, every part of this site is a reflection of what you mean to me and the joy you bring to my life 💖.
+            </p>
+          </div>
+          <div class="about-boyfriend">
+            <h3>About Your Boyfriend</h3>
+            <p>
+              Proudly your boyfriend, I am a software engineer who loves to create beautiful things, whether it's a website, a song, or a special message like this for you 🥰.
+            </p>
+            <p>You can always find more of my interesting projects below hehee. Hope that you'll enjoy them and support me in my journey to become a better person for you 💖.</p>
+            <!-- Social Media Links -->
+            <div class="social-media">
+              <a href="https://github.com/hoangsonww" target="_blank" class="social-link">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <button id="scroll-to-top" class="action-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+
+      <button id="trigger-confetti" class="action-button">
+        <i class="fas fa-magic"></i>
+      </button>
+
+      <footer>
+        <p class="fade-in">With all my love, your Dav  🙆🏻‍♂️ I hope you like this hand-crafted special message hehee. Happy Birthday, Em Bé Thư Kỳ! 💖</p>
+      </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
