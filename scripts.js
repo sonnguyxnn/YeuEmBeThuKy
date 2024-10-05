@@ -104,8 +104,15 @@ function submitQuiz() {
     }
   }
 
-  const resultElement = document.getElementById('quiz-result');
-  resultElement.textContent = `Babe, You got ${score} out of 5 questions correct! 🎉`;
+  const resultElement = document.getElementById( 'quiz-result' );
+  
+  if ( score === 5 ) {
+    resultElement.textContent = `Babe, You got ${ score } out of 5 questions correct! 🎉 Turns out you understand me more than I'd think hehee`
+  } else if ( score >= 3 ) {
+    resultElement.textContent = `Babe, You got ${ score } out of 5 questions correct! 🎉 Not bad, you know me quite well ^^`
+  } else {
+    resultElement.textContent = `Babe, You got ${ score } out of 5 questions correct! 😅 It's okay, I still love you ==`
+  } 
 }
 
 function updateCountdown(targetDate, countdownId) {
